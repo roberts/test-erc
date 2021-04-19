@@ -1,12 +1,8 @@
-/**
- *Submitted for verification at Etherscan.io on 2020-11-03
-*/
-
 // File: @openzeppelin/contracts/GSN/Context.sol
 
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.7.0;
+pragma solidity ^0.6.12;
 
 /*
  * @dev Provides information about the current execution context, including the
@@ -33,7 +29,7 @@ abstract contract Context {
 
 
 
-pragma solidity ^0.7.0;
+
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
@@ -113,7 +109,7 @@ interface IERC20 {
 
 
 
-pragma solidity ^0.7.0;
+
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
@@ -275,7 +271,7 @@ library SafeMath {
 
 
 
-pragma solidity ^0.7.0;
+
 
 /**
  * @dev Collection of functions related to the address type
@@ -419,7 +415,7 @@ library Address {
 
 
 
-pragma solidity ^0.7.0;
+
 
 
 
@@ -728,7 +724,7 @@ contract ERC20 is Context, IERC20 {
 
 
 
-pragma solidity ^0.7.0;
+
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -798,7 +794,7 @@ abstract contract Ownable is Context {
 
 
 
-pragma solidity ^0.7.0;
+
 
 
 
@@ -822,7 +818,7 @@ contract TokenRecover is Ownable {
 
 
 
-pragma solidity ^0.7.0;
+
 
 
 /**
@@ -862,7 +858,7 @@ contract ServiceReceiver is TokenRecover {
 
 
 
-pragma solidity ^0.7.0;
+
 
 
 /**
@@ -880,7 +876,7 @@ contract ServicePayer {
 
 
 
-pragma solidity ^0.7.0;
+
 
 
 
